@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>O Meu Primeiro Projeto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Este é o meu primeiro exercício em Javascript!</p>
+    <button onclick="mostrarMensagem()">Clica aqui!</button>
+    <div id="mensagem"></div>
+</body>
+</html>
