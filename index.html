@@ -2,13 +2,35 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>O Meu Primeiro Site</title>
+  <title>Exploração de Alojamento Web</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Bem-vindo ao meu site!</h1>
-  <p id="mensagem"></p>
+  <div class="container">
+    <h1>Alojamento Web – Explorando o Futuro!</h1>
+    <div class="menu">
+      <button onclick="mostrarSecao('pesquisar')">🔍 Pesquisar</button>
+      <button onclick="mostrarSecao('comparar')">📊 Comparar</button>
+      <button onclick="mostrarSecao('testar')">🚀 Testar & Alojamento</button>
+    </div>
 
+    <div class="conteudo">
+      <section id="pesquisar" class="secao">
+        <h2>1️⃣ Pesquisar Alojamentos Web</h2>
+        <p>Procura serviços como GitHub Pages, Netlify, Vercel, Hostinger, entre outros. Pensa nas tuas necessidades: gratuito? Domínio próprio? Backend?</p>
+      </section>
+
+      <section id="comparar" class="secao hidden">
+        <h2>2️⃣ Comparar as Opções</h2>
+        <p>GitHub Pages é ótimo para sites estáticos. Netlify e Vercel suportam frameworks modernas. Hostinger é bom para backend. Compara custos, suporte e funcionalidades!</p>
+      </section>
+
+      <section id="testar" class="secao hidden">
+        <h2>3️⃣ Testar e Alojamento</h2>
+        <p>Testa localmente os teus ficheiros HTML, CSS e JS. Depois publica com GitHub Pages, Netlify ou outro serviço. Parabéns, o teu site está online! 🏆</p>
+      </section>
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
